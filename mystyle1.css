@@ -1,0 +1,137 @@
+*{padding: 0; margin: auto; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+a:link, a:active, a:visited, a:hover{text-decoration: none;}
+		a:link, a:active, a:visited{color: white;}
+
+		h2{font-weight: 800; font-size: 2.4em;}
+		h4{font-family: 'Nanum Gothic', sans-serif; line-height: 1.8em; font-size: 0.9em;}
+		h3{font-family: 'Nanum Gothic', sans-serif;  font-size: 1.3em; font-weight: 800;}
+#all_box{width: 100%; overflow: hidden;}
+
+#menu_box{position: absolute; width: 100%; height: 60px; background: #211826; opacity: 0.4;}
+header{position: relative; width: inherit; max-width: 1600px; height: 60px;  color: white;}
+header h1{font-weight: 400; height: 60px; line-height: 60px; float: left; font-size: 1.6em; padding:  0 0 0 15px;}
+header img{float: left; padding: 10px 0 10px 15px; width: 45px;}
+header img::after{clear:both;}
+
+ul{list-style: none; float: right;}
+li{float: left; width: 180px; height: 60px; line-height: 60px; text-align: center;}
+li:hover {font-weight: 600; background: #211826;}
+#visit{font-weight: 600;}
+
+#box{position: absolute; width: 100%; height: 40vw; background: #211826; color: white; max-height: 560px;}
+main{position: relative; width: inherit; max-width: 1500px; height: 40vw; max-height: 560px;}
+main img{position: absolute; right: 0px; width: 64%;}
+main section{position: absolute; left: 150px;  bottom: 0px; color: white;  height: 280px; z-index: +1;}
+main section h1{font-family: 'Abril Fatface', cursive; font-size: 6.0em; letter-spacing: 2px; line-height: 1.0; position: relative; left: 180px;}
+main section h3{font-family: 'Open Sans', sans-serif; font-weight: 400; padding:10px 0 0 0; float: left; text-align: right;}
+
+@media screen and (max-width: 500px){
+
+	h2{font-size: 1.8em;}
+	h3{font-size: 1.0em;}
+	#menu_box{height: 80px;}
+	header img{margin: 0 0 0 calc(50% - 17px); padding: 7px 0 10px 0px ; width: 34px;}
+	ul{width: 100%;}
+	li{width: 33.3%; height: 30px; line-height: 30px; font-size: 3.4%;}
+	#box{width: 100%; height: 82vw; max-height: 370px;}
+	#box main{width: 100%; padding: 47px 0 0 0;}
+	#box main img{width: 100%;}
+	#box main section{position: relative; left: 10%; top: 27vw; width: 100%;}
+	#box main section h1{font-size: 3.5em; left: 0px;}
+	#box main section h3{position: relative; left: 10px; text-align: left; font-size: 1.0em;}
+}
+
+#o_box1{position: relative; width: 100%; max-width: 1350px; height: 65vw; max-height: 750px;}
+#part1{width: 100%; max-width: 1350px;}
+#part1:after{content:""; display: block; clear:both;}
+#part1 img{float: left; width: 480px; padding: 0px 30px 0px 0px;}
+#part1 section{float: right; padding: 0 150px 0 0; width: 690px;}
+
+#part1 section h4{padding: 20px 0px 0px 0px;}
+#part1 section img{padding: 30px 0 0 0; float: right; width: 690px;}
+
+#part1 article {float: left; padding: 20px 0 0 150px;  width: 330px;}
+
+@media screen and (max-width: 500px){
+	#o_box1{width: inherit; height: 85vw; max-height: 370px; opacity: 0.4;}
+	#part1{width: inherit; top: 10vw;}
+	#part1 img{width: 80%; padding: 0 0 0 10%;}
+	#part1 section{float: left; width: 100%; }
+	#part1 section h2{width: 80%;}
+	#part1 section h4{width: 80%; padding: 5px 0 0 0;}
+	#part1 section img{position: absolute; top:0px; width: 100%; opacity: 0.4; z-index: -1;}
+	#part1 article{width: 78vw; padding: 5vw 0 0 11vw;}
+}
+
+#part2{margin: 100px 0 0 0; width: 100%; height: 640px; background: #1B1026;}
+#part2 section{width: 100%; max-width: 1350px; }
+#part2 section article{float: left; padding: 120px 0 0 150px; margin: 0; width: 360px;color: white;}
+#part2 section article h2{font-weight: 700; padding: 0 0 10px 0;}
+#part2 section article h4{padding: 15px 0px 0px 0px;}
+#part2 section article h3{padding: 60px 0 0 0 ; color: #EED331;}
+#part2 section img{float: right; width: 690px; height: 640px;}
+
+@media screen and (max-width: 500px){
+	#part2{height: 96vw; }
+	#part2 section{width: 100%;}
+	#part2 section article{position: absolute; width: 80%; padding: 50px 0 0 10%; z-index: +1;}
+	#part2 section article h2{padding: 0px;}
+	#part2 section article h3{padding: 20px 0 0 0;}
+	#part2 section article h4{padding: 7px 0 0 0;}
+	#part2 section img{position: relative; left: 0; top: 0; width: 100%; height: 96vw; opacity: 0.3;}
+}
+
+#part3{width: inherit; max-width: 1350px;}
+#part3:after{content:""; display: block; clear:both;}
+#part3 img{float: left; width: 660px;}
+#part3 section{float: left; padding: 70px 0 0 30px; width: 510px;}
+#part3 section h3{color: #753A13;}
+#part3 section h4{padding: 30px 0 50px 0;}
+#part3 section img{float: right: padding: 50px 0 0 0; width: 630px;transform: rotate(-20deg);}
+#part3 #section2{float: left; padding: 50px 0 0 0; width: 1350px; height: 600px;}
+#part3 #section2 article{float: left; width: 660px; padding: 0 30px 0 0;}
+#part3 #section2 article img{width: 660px; padding: 30px 0 0 0; left: 0px;}
+#part3 #section2 article h3{color: #753A13; padding: 0 0 0 150px;}
+#part3 #section2 article h4{padding: 0 0 0 150px;}
+
+#part3 #section2 div{float: left; width: 660px; }
+#part3 #section2 div img{float: left; width: 660px;}
+#part3 #section2 div h4{float: left; width: 510px; padding: 10px 0 0 0;}
+
+@media screen and (max-width: 500px){
+	#part3{width: 100%;}
+	#part3:after{content:""; display: block; clear:both;}
+	#part3 img{float: left; width: 100%;}
+	#part3 section{float: left; width: inherit; padding: 0px;}
+	#part3 section h3{width: 80%; padding: 15px 0 0 0;}
+	#part3 section h4{width: 80%; padding: 7px 0 0 0;}
+	#part3 section img{float: left; width: 80%; padding: 40px 0 0 10%;}
+	#part3 #section2{float: left; width: inherit; padding: 16vw 0 0 0;}
+	#part3 #section2 article{float: left; width: 80%; padding: 0 0 0 10%;}
+	#part3 #section2 article:after{content:""; display: block; clear:both;}
+	#part3 #section2 article h3{padding: 0 0 7px 0;}
+	#part3 #section2 article h4{padding: 0px;}
+	#part3 #section2 article img{float: left; width: 100%; padding: 20px 0 10px 0;}
+	#part3 #section2 div{float: left; width: 80%; padding: 0 0 0 10%;}
+
+	#part3 #section2 div img{float: left; width: 100%;}
+	#part3 #section2 div h4{float: left; width: 100%; padding: 0px;}
+}
+
+footer{width: inherit; height: 60px; background: #211826; margin: 100px 0 0 0;}
+footer section{width: 95%; max-width: 1310px; padding: 15px 0 0 0; color: white;}
+footer section article{float: left; width: 240px;}
+footer section article img{float: left; width: 30px; padding: 0 10px 0 0;}
+footer section article h4{float: left;  padding: 0 10px 0 0;}
+footer section #sns{float: right; width: 30px; padding: 0 13px 0 0}
+
+@media screen and (max-width: 500px){
+	footer{width: inherit; margin: 60vw 0 0 0; height: 130px;}
+	footer section{width: 95%;}
+	footer section article{float: left; width: 200px; padding: 5px 0;}
+	footer section article h4{padding: 0px; font-size: 0.7em}
+	footer section article img{width: 25px;}
+	footer section #sns{float: right; width: 25px; padding: 5px;}
+
+}
+

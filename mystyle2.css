@@ -1,0 +1,187 @@
+*{padding: 0; margin: auto; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+a:link, a:active, a:visited, a:hover{text-decoration: none;}
+		a:link, a:active, a:visited{color: white;}
+
+		h2{font-weight: 800; font-size: 2.4em;}
+		h4{font-family: 'Nanum Gothic', sans-serif; line-height: 1.8em; font-size: 0.9em; }
+		h3{font-family: 'Nanum Gothic', sans-serif;  font-size: 1.3em; font-weight: 800;}
+
+#all_box{width: 100%; overflow: hidden;}
+#menu_box{position: absolute; width: 100%; height: 60px; background: #3E5FBA; opacity: 0.4;}
+header{position: relative; width: inherit; max-width: 1600px; height: 60px;  color: white;}
+header h1{font-weight: 400; height: 60px; line-height: 60px; float: left; font-size: 1.6em; padding:  0 0 0 15px;}
+header img{float: left; padding: 10px 0 10px 15px; width: 45px;}
+
+ul{list-style: none; float: right;}
+li{float: left; width: 180px; height: 60px; line-height: 60px; text-align: center;}
+li:hover {font-weight: 600; background: #3E5FBA;}
+#visit{font-weight: 600;}
+
+#box{position: absolute; width: 100%; height: 40vw; background: #3E5FBA; color: white; max-height: 560px;}
+main{position: relative; width: 100%; max-width: 1500px; height: 40vw; max-height: 560px; }
+main img{position: absolute; left: 0px; width: 63%;}
+main section{position: absolute; width: 570px; right: 4%; bottom: 0px; color: white; height: 280px;}
+main section h1{font-family: 'Abril Fatface', cursive; font-size: 6.0em; letter-spacing: 2px; line-height: 1.0;}
+main section h3{font-family: 'Open Sans', sans-serif; font-weight: 400; padding: 10px 0 0 0; position: relative; left: 120px;}
+
+@media screen and (max-width: 500px){
+	h2{font-size: 1.8em;}
+	h3{font-size: 1.0em;}
+	#menu_box{height: 80px;}
+	header h1{height: 40px; line-height: 40px; font-size: 1.2em; }
+	header img{margin: 0 0 0 calc(50% - 17px); padding: 7px 0 10px 0px ; width: 34px;}
+	ul{width: 100%;}
+	li{width: 33.3%; height: 30px; line-height: 30px; font-size: 3.4%;}
+	#box{width: 100%; height: 82vw; max-height: 370px;}
+	#box main{width: 100%; padding: 47px 0 0 0; }
+	#box main img{width: 100%;}
+	#box main section{position: relative; left: 10%; top: 27vw; width: 100%;}
+	#box main section h1{font-size: 3.5em; left: 0px;}
+	#box main section h3{left: 2vw; text-align: left; font-size: 1.0em;}
+}
+
+#o_box1{position: relative; width: 100%; max-width: 1350px; height: 65vw; max-height: 750px;}
+
+#part1{width: 100%; max-width: 1350px;}
+#part1:after{content:""; display: block; clear:both;}
+#part1 div{float: left; width: 660px;}
+#part1 div img{width: 660px;}
+#part1 div h4{float: right; padding: 20px 0 0 0; width: 510px;}
+#part1 section{float: left; width: 510px; padding: 0 0 0 30px;}
+#part1 section h4{padding: 10px 0 10px 0;}
+#part1 section img{width: 510px;}
+
+@media screen and (max-width: 500px){
+	#o_box1{width: inherit; height: 85vw; max-height: 390px;}
+	#part1 div{width: 100%;}
+	#part1 div img{width: 100%;}
+	#part1 div h4{position: absolute; margin: 0 0 0 10%; width: 80%; opacity: 0;}
+	#part1 section{float: left; padding: 0; width: 100%;}
+	#part1 section h2{float: left; width: 80%; padding: 20px 0 10px 10%;}
+	#part1 section h4{float: left; width: 80%; padding: 0 0 0 10%;}
+	#part1 section img{width: 80%; padding: 30px 0 0 10%;}
+}
+
+#part2{width: 100%; margin: 100px 0 0 ;}
+#part2:after{content:""; display: block; clear:both;}
+#part2 div{position: relative; margin: 0; width: 100%; height: 280px; background: #223481; color: white; box-shadow: 0px 15px 50px 15px #103351 inset;}
+#part2 div section{position: relative; left: 150px; top: 70px; width: 100%; max-width: 1350px; width: 1350px;} 
+#part2 div section h4{float: left; padding: 20px 0 0 0; width: 540px;} 
+#part2 #section0{width: 100%; width: 1350px;}
+#part2 #section0 #article1{float: left; padding: 70px 0 0 150px; width: 510px;}
+#part2 #section0 #article2{float: right; padding: 70px 150px 0 0; width: 510px;}
+#part2 article h4{padding: 10px 0 15px 0;}
+#part2 article img{width: 510px;}
+#part2 #article3{float: left; margin: 70px 150px; width: 1050px;}
+#part2 #article3 iframe{width:1050px; height: 630px;}
+
+@media screen and (max-width: 500px){
+	#part2{margin: 50px 0 0 ;}
+	#part2 div{width: 100%; height: 240px}
+	#part2 div section{position: relative; left: 0; top: 30px; width: 80%;}
+	#part2 div section h4{width: 100%;}
+	#part2 #section0{width: 100%; background: red;}
+	#part2 #section0 #article1{float: left; width: 100%; padding: 40px 0 0 10%;}
+	#part2 #section0 #article1 h3{float: left; width: 80%; padding: 5px 0;}
+	#part2 #section0 #article1 h4{float: left; width: 80%; padding: 0 0 5px 0;}
+	#part2 #section0 #article1 img{width: 80%;}
+	#part2 #section0 #article2{float: left; width: 100%; padding: 50px 0 40px 0;}
+	#part2 #section0 #article2 h3{float: left; width: 80%; padding: 0 0 5px 10%;}
+	#part2 #section0 #article2 h4{float: left; width: 80%; padding: 0 0 5px 10%;}
+	#part2 #section0 #article2 img{width: 80%; padding: 0 0 0 10%;}
+	#part2 #article3{float: left; margin: 0 0 40px 0; width: 100%;}
+	#part2 #article3 h3, h4{width: 80%;}
+	#part2 #article3 iframe{width: 100%; height: 55vw;}
+}
+
+#part3{position: relative; width: 100%; height: 900px; background: #173B6B; color: white; box-shadow: 0px 20px 50px 15px #0E253D inset;}
+#part3:after{content:""; display: block; clear:both;}
+#part3 div{position: relative; width: 1350px; height: 1000px;}
+#part3 div h3{padding: 0 0 15px 0;}
+#part3 div #section1{position: relative; top: 100px; height: 700px; width: 1050px;}
+#part3 div #section1 h4{float: left; width: 720px; margin: 0 0 40px 0;}
+#part3 div #section1 #article1{float: left; width: 510px;}
+#part3 div #section1 #article2{float: right; width: 510px;}
+#part3 div #section1 img{width: 510px;}
+#part3 div #section3 {width: 1050px;}
+#part3 div #section3 h4{float: left; width: 720px;}
+#part3 div #img{position: absolute; bottom: -20px; right: 0px; width: 450px; transform: rotate(-90deg);}
+
+@media screen and (max-width: 500px){
+	#part3{width: 100%; height: 1130px;}
+	#part3 div{width: 100%; }
+	#part3 div #section1{float: left; height: 874px; top: 60px; width: 100%;}
+	#part3 div #section1 h3{width: 80%; padding: 0 0 10px 0;}
+	#part3 div #section1 h4{width: 80%; padding: 0 0 10px 10%;}
+	#part3 div #section1 #article1 {float: left; width: 80%;}
+	#part3 div #section1 img {width: 100%; padding: 0 0 0 10%}
+	#part3 div #section1 #article2 {float: left; width: 80%; padding: 40px 0 0 0;}
+	#part3 div #section3{width: 100%;}
+	#part3 div #section3 h3{width: 80%;}
+	#part3 div #section3 h4{width: 80%; float: left; padding: 0 0 0 10%;}
+	#part3 div #img{position: absolute; bottom: -250px; width: 200px;}
+	}
+
+#part4{position: relative; top: 100px; width: 1050px; padding: 0 0 300px 0;}
+#part4:after{content:""; display: block; clear:both;}
+#part4 section{float: left; width: 100%;}
+#part4 h3{padding: 0 0 15px 0;}
+#part4 h4{float: left; width: 690px;}
+#part4 #article1{position: relative; left: 0px; top: 30px; width: 1050px; height: 500px; b}
+#part4 #article1 h3{float: left;}
+#part4 iframe{float: left; width: 1050px; height: 630px;}
+#part4 #article2{position: relative; top: 90px; width: 100%}
+#part4 #article2 h4{float: left; width: 870px;}
+#part4 #article2 #h3_2{float: left; padding: 40px 0 15px 0;}
+
+@media screen and (max-width: 500px){
+	#part4{position: relative; width: 100%; padding: 0px;}
+	#part4:after{content:""; display: block; clear:both;}
+	#part4 section{width: 100%;}
+	#part4 h3{padding: 0 0 7px 10%;}
+	#part4 h4{width: 80%; padding: 0 0 0 10%;}
+	#part4 #article1{float: left; width: 100%; left: 0; top:20px; height: 270px;}
+	#part4 iframe{width: 100%; height: 55vw;}
+	#part4 #article2{top: 14vw;}
+	#part4 #article2 h4{width: 80%;}
+	#part4 #article2 #h3_2{padding: 30px 0 5px 10%;}
+}
+
+#part5{width: 100%; height: 580px; background: #173B6B; box-shadow: 0px 20px 50px 15px #0E253D inset;}
+#part5 section{position: relative; top: 100px; width: 1050px; color: white;}
+#part5 section article h4{padding: 15px 0 30px 0;}
+#part5 section article iframe{float: left; width: 510px; height: 290px;}
+#part5 section #article1{float: left; width: 510px;}
+#part5 section #article2{float: right; width: 510px;}
+
+@media screen and (max-width: 500px){
+	#part5{margin: 200px 0 0 0; height: 980px}
+	#part5 section{width: 100%; top: 70px;}
+	
+	#part5 section #article1{float: left; width: 100%; padding: 0;}
+	#part5 section #article1 h3{float: left; padding: 0 0 10px 10%;}
+	#part5 section #article1 h4{float: left; padding: 0 0 15px 10%;}
+	#part5 section #article1 iframe{width: 100%; height: 55vw;}
+
+	#part5 section #article2{float: left; width: 100%; padding: 0 0 0 0;}
+	#part5 section #article2 h3{margin: 60px 0 0 0; padding: 0 0 10px 10%;}
+	#part5 section #article2 h4{float: left; padding: 0 0 15px 10%;}
+	#part5 section #article2 iframe{width: 100%; height: 55vw;}
+}
+
+footer{width: 100%; height: 60px; background: #173B6B; }
+footer section{width: 95%; max-width: 1310px; padding: 15px 0 0 0; color: white;}
+footer section article{float: left; width: 240px;}
+footer section article img{float: left; width: 30px; padding: 0 10px 0 0;}
+footer section article h4{float: left;  padding: 0 10px 0 0;}
+footer section #sns{float: right; width: 30px; padding: 0 13px 0 0}
+
+@media screen and (max-width: 500px){
+	footer{width: inherit; padding: 0px 0 0 0; height: 130px;}
+	footer section{width: 95%;}
+	footer section article{float: left; width: 210px; padding: 5px 0;}
+	footer section article h4{padding: 0px; font-size: 0.7em}
+	footer section article img{width: 25px;}
+	footer section #sns{float: right; width: 25px; padding: 5px;}
+
+
