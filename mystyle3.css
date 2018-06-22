@@ -63,7 +63,7 @@ footer section #sns{float: right; width: 30px; padding: 0 13px 0 0}
 @media screen and (max-width: 500px){
 	footer{width: inherit; margin: 60vw 0 0 0; height: 130px;}
 	footer section{width: 95%;}
-	footer section article{float: left; width: 200px; padding: 5px 0;}
+	footer section article{float: left; width: 210px; padding: 5px 0;}
 	footer section article h4{padding: 0px; font-size: 0.7em}
 	footer section article img{width: 25px;}
 	footer section #sns{float: right; width: 25px; padding: 5px;}
